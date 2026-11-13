@@ -1,0 +1,14 @@
+G4 is a control loop around Harness², with a meta-strategy archive adapted from HyperAgents.
+
+third_party/harness2 is an unmodified checkout of
+https://github.com/google-research/harness2 at commit
+6868817518876de8fd170c6a8354daca273b6191
+and remains under the Apache License 2.0. Its license is in
+third_party/harness2/LICENSE.
+
+third_party/hyperagents/selection.py is adapted from
+https://github.com/facebookresearch/HyperAgents at commit
+59a68f672dfb92c74aeb7e61535d776fb36e172d
+(utils/gl_utils.py select_parent method score_child_prop, and
+filter_patch_by_files). That adaptation is CC BY-NC-SA 4.0.
+Its license is in third_party/hyperagents/LICENSE.md.

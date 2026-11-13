@@ -1,0 +1,10 @@
+https://github.com/facebookresearch/HyperAgents
+commit 59a68f672dfb92c74aeb7e61535d776fb36e172d
+
+selection.py adapts two pieces of that tree:
+
+- utils/gl_utils.py select_parent, method "score_child_prop"
+- utils/gl_utils.py filter_patch_by_files
+
+POLYGLOT_STAGED_THRESHOLD is the 0.4 gate in generate_loop.run_harness_polyglot.
+Those files are CC BY-NC-SA 4.0. See LICENSE.md.
